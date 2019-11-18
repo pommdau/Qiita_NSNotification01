@@ -15,7 +15,6 @@ NSString *const IKEMailAddressKey                 = @"mailAddress";
 
 @interface PreferencesController () <NSTextFieldDelegate>
 @property (weak) IBOutlet NSTextField *mailAddressTF;
-
 @end
 
 @implementation PreferencesController

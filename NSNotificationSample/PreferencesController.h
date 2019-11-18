@@ -19,9 +19,6 @@ extern NSString *const IKENeedsSendingMailKey;  // メール有無
 extern NSString *const IKEMailAddressKey;       // メールアドレス
 
 @interface PreferencesController : NSWindowController
-@property NSString *isLogin;   // ログインしているかどうか
-@property NSString *userid;    // ユーザID
-@property NSString *password;  // パスワード
 @end
 
 NS_ASSUME_NONNULL_END
